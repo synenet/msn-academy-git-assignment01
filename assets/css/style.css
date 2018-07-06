@@ -1,0 +1,17 @@
+
+footer { background-color:#f0f0f0;  }
+
+.world-cup-image{width:100%;height:100%}
+
+.microphone{width:15px}
+
+header ul, footer ul { list-style-type: none; }
+
+header ul { display:flex;justify-content:space-between }
+footer ul { display:flex;justify-content:space-between }
+
+.pseudo { border: 1px solid #000;}
+.pseudo:after{ content:'Hello world';border: 1px solid #f00;}
+.pseudo:before{ content:'This is awesome';border: 1px solid #00f;}
+
+footer{ display:flex}
