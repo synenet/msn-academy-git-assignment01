@@ -14,4 +14,4 @@ footer ul { display:flex;justify-content:space-between }
 .pseudo:after{ content:'Hello world';border: 1px solid #f00;}
 .pseudo:before{ content:'This is awesome';border: 1px solid #00f;}
 
-footer{ display:flex}
+footer{ display:flex};button{ color:red;padding:5px}
