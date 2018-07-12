@@ -1,17 +1,73 @@
 
-footer { background-color:#f0f0f0;  }
+body{
+    padding:0;
+    margin:0;
+}
+footer {
+     background-color:#f0f0f0;
+     display:flex;
+     margin-top:50px;
+    
+      }
 
-.world-cup-image{width:100%;height:100%}
+header, footer{
+    padding: 0px 15px 0px 15px
+}
 
-.microphone{width:15px}
+.world-cup-image{
+    width:100%;height:100%
+}
 
-header ul, footer ul { list-style-type: none; }
+.microphone{
+    width:15px
+}
 
-header ul { display:flex;justify-content:space-between }
-footer ul { display:flex;justify-content:space-between }
+header ul, footer ul {
+     list-style-type: none; 
+    }
+header {
+    margin-bottom: 50px;
 
-.pseudo { border: 1px solid #000;}
+}
+
+header ul {
+     display:flex;
+     justify-content:space-between;
+     width:250px;
+     margin-left: auto
+     }
+main {
+    width:500px;
+    margin: auto;
+}
+main > img {
+    margin-bottom: 10px;
+}
+main form .input-group {
+    background-color: #fff;
+    padding: 10px;
+    border: solid 1px #000;
+ }
+footer ul { display:flex;justify-content:space-between ;padding:0px}
+
+/* .pseudo { border: 1px solid #000;}
 .pseudo:after{ content:'Hello world';border: 1px solid #f00;}
-.pseudo:before{ content:'This is awesome';border: 1px solid #00f;}
+.pseudo:before{ content:'This is awesome';border: 1px solid #00f;} */
 
-footer{ display:flex};button{ color:red;padding:5px}
+footer li:first-child{margin-left:0px  }
+
+/* button{ color:red;padding:5px;margin-top:50px} */
+
+footer .footer-column-one{
+    justify-content: flex-end;
+    margin-right: auto
+
+}
+
+/* footer .footer-column-one{
+    justify-content: flex-end;
+   
+} */
+
+footer  li {margin-left:10px;color:#ccc}
+footer  li a , header li a {color:#666;text-decoration: none;}
